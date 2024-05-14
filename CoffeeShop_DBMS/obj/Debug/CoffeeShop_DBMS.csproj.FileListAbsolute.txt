@@ -1,0 +1,14 @@
+C:\Users\Dev. Salty\Desktop\Wednesday\CoffeeShop_DBMS\CoffeeShop_DBMS\bin\Debug\CoffeeShop_DBMS.exe.config
+C:\Users\Dev. Salty\Desktop\Wednesday\CoffeeShop_DBMS\CoffeeShop_DBMS\bin\Debug\CoffeeShop_DBMS.exe
+C:\Users\Dev. Salty\Desktop\Wednesday\CoffeeShop_DBMS\CoffeeShop_DBMS\bin\Debug\CoffeeShop_DBMS.pdb
+C:\Users\Dev. Salty\Desktop\Wednesday\CoffeeShop_DBMS\CoffeeShop_DBMS\obj\Debug\CoffeeShop_DBMS.csproj.AssemblyReference.cache
+C:\Users\Dev. Salty\Desktop\Wednesday\CoffeeShop_DBMS\CoffeeShop_DBMS\obj\Debug\CoffeeShop_DBMS.Properties.Resources.resources
+C:\Users\Dev. Salty\Desktop\Wednesday\CoffeeShop_DBMS\CoffeeShop_DBMS\obj\Debug\CoffeeShop_DBMS.csproj.GenerateResource.cache
+C:\Users\Dev. Salty\Desktop\Wednesday\CoffeeShop_DBMS\CoffeeShop_DBMS\obj\Debug\CoffeeShop_DBMS.csproj.CoreCompileInputs.cache
+C:\Users\Dev. Salty\Desktop\Wednesday\CoffeeShop_DBMS\CoffeeShop_DBMS\obj\Debug\CoffeeShop_DBMS.exe
+C:\Users\Dev. Salty\Desktop\Wednesday\CoffeeShop_DBMS\CoffeeShop_DBMS\obj\Debug\CoffeeShop_DBMS.pdb
+C:\Users\Dev. Salty\Desktop\Wednesday\CoffeeShop_DBMS\CoffeeShop_DBMS\obj\Debug\CoffeeShop_DBMS.MainForm.resources
+C:\Users\Dev. Salty\Desktop\Wednesday\CoffeeShop_DBMS\CoffeeShop_DBMS\obj\Debug\CoffeeShop_DBMS.POS.POSForm.resources
+C:\Users\Dev. Salty\Desktop\Wednesday\CoffeeShop_DBMS\CoffeeShop_DBMS\obj\Debug\CoffeeShop_DBMS.POS.ItemSelect.resources
+C:\Users\Dev. Salty\Desktop\Wednesday\CoffeeShop_DBMS\CoffeeShop_DBMS\obj\Debug\CoffeeShop_DBMS.POS.Item.resources
+C:\Users\Dev. Salty\Desktop\Wednesday\CoffeeShop_DBMS\CoffeeShop_DBMS\obj\Debug\CoffeeShop_DBMS.Items.ItemsForm.resources

@@ -1,0 +1,190 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{E304FDA5-E56D-4DF1-A766-C165835A7324}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <RootNamespace>CoffeeShop_DBMS</RootNamespace>
+    <AssemblyName>CoffeeShop_DBMS</AssemblyName>
+    <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
+    <Deterministic>true</Deterministic>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Net.Http" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Consts.cs" />
+    <Compile Include="Items\ItemsForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Items\ItemsForm.Designer.cs">
+      <DependentUpon>ItemsForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="MainForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="MainForm.Designer.cs">
+      <DependentUpon>MainForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="POS\Item.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="POS\Item.Designer.cs">
+      <DependentUpon>Item.cs</DependentUpon>
+    </Compile>
+    <Compile Include="POS\ItemSelect.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="POS\ItemSelect.Designer.cs">
+      <DependentUpon>ItemSelect.cs</DependentUpon>
+    </Compile>
+    <Compile Include="POS\POSForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="POS\POSForm.Designer.cs">
+      <DependentUpon>POSForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <EmbeddedResource Include="Items\ItemsForm.resx">
+      <DependentUpon>ItemsForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="MainForm.resx">
+      <DependentUpon>MainForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="POS\Item.resx">
+      <DependentUpon>Item.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="POS\ItemSelect.resx">
+      <DependentUpon>ItemSelect.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="POS\POSForm.resx">
+      <DependentUpon>POSForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Resources.resx</DependentUpon>
+      <DesignTime>True</DesignTime>
+    </Compile>
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\grid-solid-24.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\list-ul-regular-24 %281%29.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\bar-chart-alt-2-solid-24 %282%29.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\badge-dollar-solid-24 %281%29.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\coffee-regular-24.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\log-out-regular-24 %282%29.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\log-out-regular-24 %283%29.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\trash-regular-24 %281%29.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\x-square-solid-24.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\exit-fullscreen-regular-24 %281%29.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\minus-square-solid-24.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\plus-square-solid-24.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\badge-dollar-solid-24 %281%291.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\trash-regular-24 %281%291.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\plus-square-solid-241.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\minus-square-solid-241.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\NUN.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\coffee-togo-regular-24.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\coffee-regular-132.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\message-alt-add-regular-48.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\message-alt-add-regular-24 %281%29.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\message-alt-edit-regular-24 %281%29.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\message-alt-x-regular-24 %281%29.png" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+</Project>
